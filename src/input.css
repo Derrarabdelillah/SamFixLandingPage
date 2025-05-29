@@ -3,6 +3,7 @@
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite";
 
+
 @theme {
     --color-primary-white: #FFFFFF;
     --color-secondry-black: #000000;
@@ -11,7 +12,7 @@
 }
 
 * {
-    font-family: "Nunito", sans-serif;
+    font-family: "Ancizar Sans", sans-serif;
     transition: all 0.3s;
 }
 
@@ -19,11 +20,10 @@ body {
     background-color: #f8f8f8;
 }
 
-
 #hero {
     background: #000000;
-    background: -webkit-linear-gradient(to right, #50B848, #1d461b); 
-    background: linear-gradient(to right, #50B848, #1d461b); 
+    background: -webkit-linear-gradient(to bottom #50B848, #1d461b); 
+    background: linear-gradient(to bottom, #1d461b,#2e702b, #50B848, #50B848, white); 
 }
 
 .slider .slider-animation {
