@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@theme {
+    --color-primary-white: #FFFFFF;
+    --color-secondry-black: #000000;
+    --color-main: #50B848;
+}
+
+* {
+    font-family: "Nunito", sans-serif;
+    transition: all 0.3s;
+}
+
+body {
+    background-color: #f8f8f8;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TailwindCSS Files Links-->
+    <link rel="stylesheet" href="src/input.css">
+    <link rel="stylesheet" href="src/output.css">
+
+    <!-- FlowBit CSS Link -->
+     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+
+     <!-- Nunito Font family Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome ( Icons ) Library Link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+     <title>SamFix</title>
+</head>
+<body>
+    
+    <!-- Header Start -->
+     <header class="sticky">
+        
+        <!-- NavBar Start -->
+    <nav class="bg-secondry-black border-b border-gray-200">
+    
+   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    
+    <!-- Logo Start -->
+    <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/BlackLogo-r.png" class="max-w-[85px] md:max-w-[100px] " alt="SamFix Logo">
+    </a>
+    <!-- Logo Start -->
+
+    <div class="flex  md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        
+        <button type="button" class="hidden md:flex space-x-2 items-center justify-center  cursor-pointer text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 text-center scale-95 hover:scale-100">
+            <i class="fa-brands fa-whatsapp text-lg"></i>
+            <a href="https://wa.me/+2130796707042">Contactez-nous sur WhatsApp</a>
+        </button>
+        
+        <button data-collapse-toggle="navbar-sticky" type="button" class="cursor-pointer inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-primary-white rounded-full md:hidden focus:outline-none hover:bg-gray-700" aria-controls="navbar-sticky" aria-expanded="false">
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        
+        </button>
+    </div>
+    
+    <!-- Mobile Nav List Start -->
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        
+        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border-1 border-gray-600 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+            
+            <li>
+                <a href="index.html" class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold" aria-current="page">Home</a>
+            </li>
+
+            <li>
+            <a href="#About" class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold">About</a>
+        </li>
+
+        <li>
+            <a href="#Services" class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold">Services</a>
+        </li>
+        
+        <li>
+            <a href="#Posts" class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold">Our Posts</a>
+        </li>
+        
+        <li>
+            <a href="#Contact" class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold">Contact</a>
+        </li>
+        
+        <button type="button" class="md:hidden flex space-x-2 items-center justify-center mt-4 cursor-pointer text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 scale-95 hover:scale-100">
+            <i class="fa-brands fa-whatsapp text-lg"></i>
+            <a href="https://wa.me/+2130796707042">Contactez-nous sur WhatsApp</a>
+        </button>
+    </ul>
+
+    </div>
+    <!-- Mobile Nav List Start -->
+
+    </div>
+    </nav>
+
+
+     </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+     <section id="hero" class="pt-5 min-h-screen">
+
+        <div class="flex flex-col justify-center items-center  pt-5 px-6 space-y-4 md:mx-auto md:flex-row md:space-y-0 md:space-x-4">
+
+            <div class="flex flex-col space-y-2 md:w-1/2">
+                <h1 class="text-4xl font-bold">Redonnez vie à vos appareils</h1>
+                <h1 class="text-2xl font-semibold">Accessoires et réparation</h1>
+                <p class="text-sm text-slate-600 line-clamp-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea rerum quis, nulla praesentium nemo pariatur quae quas repellendus exercitationem possimus blanditiis similique. Officiis omnis natus id accusantium magnam voluptates quaerat?</p>
+
+                <button type="button" class="flex space-x-2 items-center justify-center mt-4 cursor-pointer w-fit text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 text-center scale-95 hover:scale-100">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <a href="https://wa.me/+2130796707042">Contactez-nous sur WhatsApp</a>
+                </button>
+
+            </div>
+
+            <div class="flex md:w-1/2">
+                <img src="assets/BlackLogo-r.png" alt="">
+            </div>
+
+        </div>
+
+     </section>
+    <!-- Hero Section End -->
+
+
+    <div class="h-[1000px]"></div>
+
+    <!-- Js Link -->
+     <script src="script.js"></script>
+     <!-- FlowBit Js Link -->
+      <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+
+</body>
+</html>
