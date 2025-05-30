@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,237 +8,289 @@
     <link rel="stylesheet" href="src/input.css">
     <link rel="stylesheet" href="src/output.css">
 
-    <!-- FlowBit CSS Link -->
-     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <!-- TAOS animation Link -->
+    <script>document.documentElement.classList.add('js')</script>
 
-     <!-- Ancizar Sans Font family Link -->
+    <!-- FlowBit CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+
+    <!-- Ancizar Sans Font family Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap"
+        rel="stylesheet">
 
     <!-- FontAwesome ( Icons ) Library Link -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Siper Links -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>SamFix</title>
 </head>
+
 <body class="overflow-x-hidden">
-    
+
+
+    <!-- Whtasapp Chat Button Start -->
+     <div >
+        <a href="https://wa.me/+2130798507160"><i class="top fa-brands fa-whatsapp bg-main text-xl px-3 py-3 md:px-4 md:py-4 rounded-full text-white  cursor-pointer z-10 fixed bottom-5 scale-95 hover:scale-100" ></i></a>
+     </div>
+    <!-- Whtasapp Chat Button End -->
+
+    <!-- Scroller Start -->
+     <div class="scroller bg-main fixed left-0 top-0 h-[5px] text-transparent"></div>
+    <!-- Scroller End -->
+
+
     <!-- Header Start -->
-     <header class="sticky" id="hero">
-        
+    <header class="sticky" id="hero">
+
         <!-- NavBar Start -->
-    <nav class="bg-secondry-black border-gray-200">
-    
-   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    
-    <!-- Logo Start -->
-    <a href="index.html" class="flex items-center space-x-3">
-        <img src="assets/BlackLogo-r.png" class="max-w-[85px] md:max-w-[100px] " alt="SamFix Logo">
-    </a>
-    <!-- Logo Start -->
+        <nav class="bg-secondry-black border-gray-200">
 
-    <div class="flex  md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-        
-        <button type="button" class="hidden md:flex space-x-2 items-center justify-center  cursor-pointer text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 text-center scale-95 hover:scale-100">
-            <i class="fa-brands fa-whatsapp text-lg"></i>
-            <a href="https://wa.me/+2130796707042">Contactez-nous sur WhatsApp</a>
-        </button>
-        
-        <button data-collapse-toggle="navbar-sticky" type="button" class="cursor-pointer inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-primary-white rounded-full md:hidden focus:outline-none hover:bg-gray-700" aria-controls="navbar-sticky" aria-expanded="false">
-            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-            </svg>
-        
-        </button>
-    </div>
-    
-    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-        
-        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border-1 border-gray-600 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
-            
-            <li>
-                <a href="index.html" class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold" aria-current="page">Home</a>
-            </li>
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 
-            <li>
-            <a href="#About" class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold">About Us</a>
-        </li>
+                <!-- Logo Start -->
+                <a href="index.html" class="flex items-center space-x-3">
+                    <img src="assets/BlackLogo-r.png" class="max-w-[85px] md:max-w-[100px] " alt="SamFix Logo">
+                </a>
+                <!-- Logo Start -->
 
-        <li>
-            <a href="#Services" class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold">Services</a>
-        </li>
-        
-        <li>
-            <a href="#Posts" class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold">Posts</a>
-        </li>
-        
-        <li>
-            <a href="#Contact" class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold">Contact Us</a>
-        </li>
-        
-        <button type="button" class="md:hidden flex space-x-2 items-center justify-center mt-4 cursor-pointer text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 scale-95 hover:scale-100">
-            <i class="fa-brands fa-whatsapp text-lg"></i>
-            <a href="https://wa.me/+2130796707042">Contactez-nous sur WhatsApp</a>
-        </button>
-    </ul>
+                <div class="flex  md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 
-    </div>
+                    <button type="button"
+                        class="hidden md:flex space-x-2 items-center justify-center  cursor-pointer text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 text-center scale-95 hover:scale-100">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <a href="https://wa.me/+2130798507160" class="text-lg">Contactez-nous sur WhatsApp</a>
+                    </button>
 
-    </div>
-    </nav>
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="cursor-pointer inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-primary-white rounded-full md:hidden focus:outline-none hover:bg-gray-700"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+
+                    </button>
+                </div>
+
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+
+                    <ul
+                        class="flex flex-col p-4 md:p-0 mt-4 font-medium border-1 border-gray-600 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+
+                        <li>
+                            <a href="index.html"
+                                class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold"
+                                aria-current="page">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#About"
+                                class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="#Services"
+                                class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold">Services</a>
+                        </li>
+
+                        <li>
+                            <a href="#Posts"
+                                class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold">Posts</a>
+                        </li>
+
+                        <li>
+                            <a href="#Contact"
+                                class="font-semibold block py-2 px-3 text-white rounded-sm hover:bg-gray-700 md:hover:bg-transparent md:p-0 md:hover:text-main md:font-bold">Contact
+                                Us</a>
+                        </li>
+
+                        <button type="button"
+                            class="md:hidden flex space-x-2 items-center justify-center mt-4 cursor-pointer text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 scale-95 hover:scale-100">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            <a href="https://wa.me/+2130798507160" class="text-lg">Contactez-nous sur WhatsApp</a>
+                        </button>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
 
 
-     </header>
+    </header>
     <!-- Header End -->
 
     <!-- Hero Section Start -->
-     <section id="hero" class=" min-h-screen md:px-16">
+    <section id="hero" class=" min-h-screen md:px-16">
 
-    
-        <div class="flex flex-col justify-center items-center pt-2 px-6 space-y-4 md:mx-auto md:flex-row md:space-y-0 md:space-x-4 ">
+
+        <div
+            class="flex flex-col justify-center items-center pt-2 px-6 space-y-4 md:mx-auto md:flex-row md:space-y-0 md:space-x-4 ">
 
             <div class="flex flex-col space-y-3 text-start pt-8 md:space-y-4  md:w-1/2 ">
-                <h1 class="md:text-5xl text-3xl text-white font-extrabold ">Redonnez vie à vos appareils</h1>
+                <h1 class="md:text-5xl text-4xl text-white font-extrabold ">Redonnez vie à vos appareils</h1>
                 <h1 class=" md:text-3xl text-2xl text-white font-semibold">Accessoires et réparation</h1>
-                <p class="text-gray-100 font-light"><a href="#" class="font-bold text-black">SamFix Store</a> est votre expert local en vente d’accessoires high-tech et en réparation de téléphones et montres connectées à Sidi Bel Abbès. Nous livrons partout en Algérie  <span class="text-black font-bold">58 wilayas</span></p>
+                <p class="text-gray-200 font-light"><a href="#" class="font-bold text-black">SamFix Store</a> est votre
+                    expert local en vente d’accessoires high-tech et en réparation de téléphones et montres connectées à
+                    Sidi Bel Abbès. Nous livrons partout en Algérie <span class="text-black font-bold">58 wilayas</span>
+                </p>
 
-                    <button type="button" class="flex space-x-2 mt-8 items-center justify-center cursor-pointer w-fit bg-black text-white focus:outline-none font-bold rounded-lg text-sm px-4 py-2 text-center hover:bg-gray-800 animate-bounce">
-                        <i class="fa-brands fa-whatsapp text-[16px] md:text-xl"></i>
-                        <a href="https://wa.me/+2130796707042" class="text-[16px] md:text-lg">Contactez-nous sur WhatsApp</a>
-                    </button>
+                <button type="button"
+                    class="flex space-x-2 mt-8 items-center justify-center cursor-pointer w-fit bg-black text-white focus:outline-none font-bold rounded-lg text-sm px-4 py-2 text-center hover:bg-gray-800" id="image">
+                    <i class="fa-brands fa-whatsapp text-[16px] md:text-xl"></i>
+                    <a href="https://wa.me/+2130798507160" class="text-lg">Contactez-nous sur WhatsApp</a>
+                </button>
 
             </div>
 
-            <div class="px-4 md:w-1/2">
-                <img src="assets/Product teardown-bro.png">
+            <div class="px-4 md:w-1/2 ">
+                <img src="assets/Product teardown-bro.png" id="image">
             </div>
 
         </div>
 
-     </section>
+    </section>
     <!-- Hero Section End -->
 
     <!-- Logo Slider Section Start -->
     <section>
-    <div class="flex justify-center items-center">
-   
-        <div class="slider w-full bg-white overflow-hidden  py-5">
-      
-            <div class="flex flex-col space-y-4 items-center justify-center py-5 px-4">
-                <h1 class="md:text-5xl text-3xl text-black font-extrabold self-start md:self-center">Our Trusted Partners</h1>
-                <p class=" text-sm text-gray-500 text-start md:text-center md:max-w-150">Rejoignez les clients qui font confiance à <a href="#" class="text-main font-extrabold hover:text-black">SamFix Store</a> pour la fiabilité et l’expertise. Notre engagement envers la qualité, le service et l’innovation nous permet de répondre aux besoins d’une clientèle variée à travers les 58 wilayas.
+        <div class="flex justify-center items-center">
 
-</p>
+            <div class="slider w-full bg-white overflow-hidden  py-5">
+
+                <div class="flex flex-col space-y-4 items-center justify-center py-5 px-4">
+                    <h1 class="md:text-5xl text-3xl text-black font-extrabold self-start md:self-center">Our Trusted
+                        Partners</h1>
+                    <p class=" text-sm text-gray-500 text-start md:text-center md:max-w-150">Rejoignez les clients qui
+                        font confiance à <a href="#" class="text-main font-extrabold hover:text-black">SamFix Store</a>
+                        pour la fiabilité et l’expertise. Notre engagement envers la qualité, le service et l’innovation
+                        nous permet de répondre aux besoins d’une clientèle variée à travers les 58 wilayas.
+
+                    </p>
+                </div>
+
+                <div class="swiper-wrapper flex p-10">
+
+                    <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
+                        <img src="assets/AdobeLogo.png" class="h-6 md:h-10 transition-all duration-200" />
+                    </div>
+
+                    <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
+                        <img src="assets/ArtstelLogo.png" class="h-6 md:h-10 transition-all duration-200" />
+                    </div>
+
+                    <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
+                        <img src="assets/GoogleLogo.png" class="h-6 md:h-10 transition-all duration-200" />
+                    </div>
+
+                    <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
+                        <img src="assets/PayPalLogo.png" class="h-6 md:h-10 transition-all duration-200" />
+
+                    </div>
+
+                    <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
+                        <img src="assets/HuaweiLogo.png" class="h-6 md:h-10 transition-all duration-200" />
+                    </div>
+
+                    <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
+                        <img src="assets/SanDiskLogo.png" class="h-6 md:h-10 transition-all duration-200" />
+                    </div>
+
+                    <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
+                        <img src="assets/AdobeLogo.png" class="h-6 md:h-10 transition-all duration-200" />
+                    </div>
+
+                    <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
+                        <img src="assets/GoogleLogo.png" class="h-6 md:h-10 transition-all duration-200" />
+                    </div>
+
+                    <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
+                        <img src="assets/HuaweiLogo.png" class="h-6 md:h-10 transition-all duration-200" />
+                    </div>
+
+                </div>
             </div>
 
-        <div class="swiper-wrapper flex p-10">
-      
-        <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
-            <img src="assets/AdobeLogo.png" class="h-6 md:h-10 transition-all duration-200" />
         </div>
-       
-        <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
-            <img src="assets/ArtstelLogo.png" class="h-6 md:h-10 transition-all duration-200" />
-        </div>
-       
-        <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
-            <img src="assets/GoogleLogo.png" class="h-6 md:h-10 transition-all duration-200" />
-        </div>
-      
-        <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
-            <img src="assets/PayPalLogo.png" class="h-6 md:h-10 transition-all duration-200" />
-       
-        </div>
-       
-        <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
-            <img src="assets/HuaweiLogo.png" class="h-6 md:h-10 transition-all duration-200" />
-        </div>
-
-        <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
-            <img src="assets/SanDiskLogo.png" class="h-6 md:h-10 transition-all duration-200" />
-        </div>
-        
-        <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
-            <img src="assets/AdobeLogo.png" class="h-6 md:h-10 transition-all duration-200" />
-        </div>
-        
-        <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
-            <img src="assets/GoogleLogo.png" class="h-6 md:h-10 transition-all duration-200" />
-        </div>
-        
-        <div class="swiper-slide hover:bg-gray-100 px-4 py-4 rounded-lg">
-            <img src="assets/HuaweiLogo.png" class="h-6 md:h-10 transition-all duration-200" />
-        </div>
-     
-    </div>
-    </div>
-   
-    </div>
     </section>
     <!-- Logo Slider End -->
 
 
     <!-- AboutUs Section Start -->
-     <section class="py-10 px-4 ">
+    <section class="py-10 px-4 ">
 
-        <div class="flex flex-col space-y-10">
+        <div class="flex flex-col space-y-10" id="About">
 
-        <div class="flex flex-col space-y-6 justify-center items-center text-start md:flex-row md:space-x-10 md:space-y-0  md:px-16">
+            <div class="flex flex-col space-y-6 justify-center items-center text-start md:flex-row md:space-x-10 md:space-y-0  md:px-16 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="400">
 
-            <div class="flex flex-col space-y-4 md:w-1/2">
-            
-            <h1 class="md:text-5xl text-3xl text-black font-extrabold self-start">About Us</h1>
-            <h1 class="text-xl text-main font-bold md:text-4xl">Qui sommes-nous ?</h1>
-            <p class="text-sm text-slate-600 leading-6"><a href="#" class="text-main font-extrabold hover:text-black">SamFix Store</a> propose la réparation de téléphones et montres connectées ainsi qu’un large choix d’accessoires high-tech.
-            AirPods, coques, chargeurs, écouteurs Bluetooth… tout ce qu’il vous faut en un seul endroit.
-            Livraison rapide dans les 58 wilayas d’Algérie.</p>
-            
-            <button type="button" class="flex space-x-2 items-center justify-center w-fit cursor-pointer text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 mt-4 text-center animate-bounce scale-95 hover:scale-100">
-                <i class="fa-brands fa-whatsapp text-xl"></i>
-                <a href="https://wa.me/+2130796707042" class="text-lg">Connectons-nous</a>
-            </button>
+                <div class="flex flex-col space-y-4 md:w-1/2">
+
+                    <h1 class="md:text-5xl text-3xl text-black font-extrabold self-start">About Us</h1>
+                    <h1 class="text-xl text-main font-bold md:text-4xl">Qui sommes-nous ?</h1>
+                    <p class="text-sm text-slate-600 leading-6"><a href="#"
+                            class="text-main font-extrabold hover:text-black">SamFix Store</a> propose la réparation de
+                        téléphones et montres connectées ainsi qu’un large choix d’accessoires high-tech.
+                        AirPods, coques, chargeurs, écouteurs Bluetooth… tout ce qu’il vous faut en un seul endroit.
+                        Livraison rapide dans les 58 wilayas d’Algérie.</p>
+
+                    <button type="button"
+                        class="flex space-x-2 items-center justify-center w-fit cursor-pointer text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 mt-4 text-center scale-95 hover:scale-100" id="image">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                        <a href="https://wa.me/+2130798507160" class="text-lg">Connectons-nous</a>
+                    </button>
+
+                </div>
+
+                <div class="md:w-1/2">
+                    <img src="assets/Innovation-bro.png"
+                        class="rounded-lg  max-w-[200px] md:max-w-[400px]" id="image">
+                </div>
 
             </div>
 
-            <div class="md:w-1/2">
-                <img src="assets/Innovation-bro.png" class="rounded-lg scale-95 hover:scale-100 max-w-[200px] md:max-w-[400px]" alt="">
+            <div class="flex flex-col-reverse space-y-8 justify-center items-center text-start md:flex-row md:space-x-4 md:space-y-0 py-4 bg-white  md:px-16">
+
+                <div class="mt-6 md:w-1/2">
+                    <img src="assets/Innovation-amico.png"
+                        class="rounded-lg max-w-[200px] md:max-w-[400px] delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="400" id="image">
+                </div>
+
+                <div class="flex flex-col space-y-4 md:w-1/2 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="400">
+
+                    <h1 class="text-xl text-main font-bold md:text-4xl">Que faisons-nous ?</h1>
+                    <p class="text-sm text-slate-600 leading-6">Chez <a href="#"
+                            class="text-main font-extrabold hover:text-black">SamFix Store</a>, nous réparons vos
+                        smartphones et montres connectées avec expertise et rapidité.
+                        Nous proposons aussi une large gamme d’accessoires high-tech : écouteurs, coques, chargeurs,
+                        supports et plus encore.
+                        Notre mission : vous offrir des produits fiables, un service client réactif, et une livraison
+                        partout en Algérie.</p>
+
+                    <button type="button"
+                        class="flex space-x-2 items-center justify-center w-fit cursor-pointer text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 mt-4 text-center" id="image">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                        <a href="https://wa.me/+2130798507160" class="text-lg">Connectons-nous</a>
+                    </button>
+
+                </div>
+
+
+
             </div>
 
         </div>
 
-        <div class="flex flex-col-reverse space-y-8 justify-center items-center text-start md:flex-row md:space-x-4 md:space-y-0 py-4 bg-white  md:px-16">
-           
-            <div class="mt-6 md:w-1/2">
-                <img src="assets/Innovation-amico.png" class="rounded-lg scale-95 hover:scale-100 max-w-[200px] md:max-w-[400px]" alt="">
-            </div>
-
-            <div class="flex flex-col space-y-4 md:w-1/2">
-            
-            <h1 class="text-xl text-main font-bold md:text-4xl">Que faisons-nous ?</h1>
-            <p class="text-sm text-slate-600 leading-6">Chez <a href="#" class="text-main font-extrabold hover:text-black">SamFix Store</a>, nous réparons vos smartphones et montres connectées avec expertise et rapidité.
-            Nous proposons aussi une large gamme d’accessoires high-tech : écouteurs, coques, chargeurs, supports et plus encore.
-            Notre mission : vous offrir des produits fiables, un service client réactif, et une livraison partout en Algérie.</p>
-            
-            <button type="button" class="flex space-x-2 items-center justify-center w-fit cursor-pointer text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 mt-4 text-center animate-bounce scale-95 hover:scale-100">
-                <i class="fa-brands fa-whatsapp text-xl"></i>
-                <a href="https://wa.me/+2130796707042" class="text-lg">Connectons-nous</a>
-            </button>
-
-            </div>
-
-
-
-        </div>
-
-        </div>
-
-     </section>
+    </section>
     <!-- AboutUs Section End -->
 
     <!-- Services Section Start -->
-     <section class="py-10 px-4 my-10">
+    <section class="py-10 px-4 my-10">
 
         <div class="flex flex-col space-y-6 md:px-16">
 
@@ -245,295 +298,352 @@
 
             <div class="flex flex-col space-y-4 space-x-0 justify-center md:flex-row md:space-x-4 md:space-y-0">
 
-            <!-- Card Start -->
-            <div class="flex flex-col space-y-6 items-center px-4 py-10 justify-center border shadow-xl border-gray-200 rounded-lg bg-white scale-95 hover:scale-100 hover:bg-gray-50 md:w-1/3">
+                <!-- Card Start -->
+                <div
+                    class="flex flex-col space-y-6 items-center px-4 py-10 justify-center border shadow-xl border-gray-200 rounded-lg bg-white scale-95 hover:scale-100 hover:bg-gray-50 md:w-1/3 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
 
-                <i class="fa-solid fa-screwdriver-wrench text-6xl px-4 py-4 bg-main text-white rounded-lg "></i>
-                <h1 class="text-2xl text-black font-extrabold md:text-3xl">Reparation</h1>
-                 <p class="text-sm text-slate-600 text-center leading-6">Réparation de smartphones et montres connectées. Changement d’écran, batterie, connecteurs, etc. Service rapide et fiable à Sidi Bel Abbès.</p>
-            </div>
-            <!-- Card End -->
+                    <i class="fa-solid fa-screwdriver-wrench text-6xl px-4 py-4 bg-main text-white rounded-lg "></i>
+                    <h1 class="text-2xl text-black font-extrabold md:text-3xl">Reparation</h1>
+                    <p class="text-sm text-slate-600 text-center leading-6">Réparation de smartphones et montres
+                        connectées. Changement d’écran, batterie, connecteurs, etc. Service rapide et fiable à Sidi Bel
+                        Abbès.</p>
+                </div>
+                <!-- Card End -->
 
-            <!-- Card Start -->
-            <div class="flex flex-col space-y-6 items-center px-4 py-10 justify-center border shadow-xl border-gray-200 rounded-lg bg-white scale-95 hover:scale-100 hover:bg-gray-50 md:w-1/3">
+                <!-- Card Start -->
+                <div
+                    class="flex flex-col space-y-6 items-center px-4 py-10 justify-center border shadow-xl border-gray-200 rounded-lg bg-white scale-95 hover:scale-100 hover:bg-gray-50 md:w-1/3 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="500">
 
-                <i class="fa-solid fa-charging-station text-6xl px-4 py-4 bg-main text-white rounded-lg"></i>
-                <h1 class="text-2xl text-black font-extrabold md:text-3xl">Accessoires</h1>
-                 <p class="text-sm text-slate-600 text-center leading-6">Vente d’accessoires high-tech de qualité. AirPods, écouteurs Bluetooth, coques, câbles et plus. Livraison partout en Algérie, dans les 58 wilayas.</p>
-            </div>
-            <!-- Card End -->
+                    <i class="fa-solid fa-charging-station text-6xl px-4 py-4 bg-main text-white rounded-lg"></i>
+                    <h1 class="text-2xl text-black font-extrabold md:text-3xl">Accessoires</h1>
+                    <p class="text-sm text-slate-600 text-center leading-6">Vente d’accessoires high-tech de qualité.
+                        AirPods, écouteurs Bluetooth, coques, câbles et plus. Livraison partout en Algérie, dans les 58
+                        wilayas.</p>
+                </div>
+                <!-- Card End -->
 
             </div>
 
         </div>
 
-     </section>
+    </section>
     <!-- Services Section End -->
 
 
     <!-- Why Choose Us Section Start -->
-     <section class="py-10 px-4 my-10 bg-white">
+    <section class="py-10 px-4 my-10 bg-white">
 
         <div class="flex flex-col space-y-6 md:px-16">
 
-            
+
             <div class="flex flex-col justify-center space-y-4 md:flex-row md:space-x-4 md:space-y-0">
-                
+
                 <div class="flex flex-col justify-center space-y-4 md:w-1/2">
-                    <h1 class="text-4xl text-black font-extrabold self-start md:text-9xl"> Pourquoi choisir <a href="#" class="text-main font-extrabold">SamFix Store?</a></h1>
-                    <p class="text-sm text-slate-600 leading-6">Chez <a href="#" class="text-main font-extrabold hover:text-black">SamFix Store</a> , nous mettons votre satisfaction au cœur de notre service. Voici ce qui nous distingue.</p>
-                    <p class="text-sm text-slate-600 leading-6">chaque client compte. Nous allions qualité, rapidité et accessibilité pour répondre à vos besoins. Découvrez ce qui fait notre différence.</p>
-                    
-                    <button type="button" class="flex space-x-2 items-center justify-center w-fit cursor-pointer text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 mt-4 text-center animate-bounce scale-95 hover:scale-100">
+                    <h1 class="text-4xl text-black font-extrabold self-start md:text-9xl"> Pourquoi choisir <a href="#"
+                            class="text-main font-extrabold">SamFix Store?</a></h1>
+                    <p class="text-sm text-slate-600 leading-6">Chez <a href="#"
+                            class="text-main font-extrabold hover:text-black">SamFix Store</a> , nous mettons votre
+                        satisfaction au cœur de notre service. Voici ce qui nous distingue.</p>
+                    <p class="text-sm text-slate-600 leading-6">chaque client compte. Nous allions qualité, rapidité et
+                        accessibilité pour répondre à vos besoins. Découvrez ce qui fait notre différence.</p>
+
+                    <button type="button"
+                        class="flex space-x-2 items-center justify-center w-fit cursor-pointer text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 mt-4 text-center" id="image">
                         <i class="fa-brands fa-whatsapp text-xl"></i>
-                        <a href="https://wa.me/+2130796707042" class="text-lg">Connectons-nous</a>
+                        <a href="https://wa.me/+2130798507160" class="text-lg">Connectons-nous</a>
                     </button>
                 </div>
 
                 <div class="flex flex-col space-y-4 md:space-y-0 md:w-1/2">
 
                     <!-- Col 1 -->
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <!-- Card Start -->
-                        <div class="flex flex-col  space-y-6 items-start px-4 py-10 justify-center border shadow-xl border-gray-200 rounded-lg bg-white scale-95 md:max-w-[400px] hover:scale-100 hover:bg-gray-50">
-
-                            <i class="fa-solid fa-tags text-2xl bg-main text-white px-4 py-4 text-center rounded-full"></i>
-                            <h1 class="text-2xl text-black font-extrabold md:text-3xl">Tarifs Abordables</h1>
-                            <p class="text-sm text-slate-600 leading-6">Des prix compétitifs pour chaque service et accessoire. Excellente qualité à des tarifs accessibles pour tous. Vous en avez pour votre argent.</p>
-                        </div>
-                        <!-- Card End -->
-
-                        <!-- Card Start -->
-                        <div class="flex flex-col  space-y-6 items-start px-4 py-10 justify-center border shadow-xl border-gray-200 rounded-lg bg-white scale-95 md:max-w-[400px] hover:scale-100 hover:bg-gray-50">
-
-                            <i class="fa-solid fa-truck-fast text-2xl bg-main text-white px-4 py-4 text-center rounded-full"></i>
-                            <h1 class="text-2xl text-black font-extrabold md:text-3xl">Livraison Rapide</h1>
-                            <p class="text-sm text-slate-600 leading-6">Nous livrons dans les 58 wilayas avec efficacité. Vos commandes arrivent rapidement, bien emballées. Suivi assuré du départ jusqu’à la réception.</p>
-                        </div>
-                        <!-- Card End -->
-                    </div>                    
-                    <!-- Col 1 -->
-                
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <!-- Card Start -->
-                        <div class="flex flex-col  space-y-6 items-start px-4 py-10 justify-center border shadow-xl border-gray-200 rounded-lg bg-white scale-95 md:max-w-[400px] hover:scale-100 hover:bg-gray-50">
+                        <div
+                            class="flex flex-col  space-y-6 items-start px-4 py-10 justify-center border shadow-xl border-gray-200 rounded-lg bg-white scale-95 md:max-w-[400px] hover:scale-100 hover:bg-gray-50 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
 
-                            <i class="fa-solid fa-screwdriver-wrench text-2xl bg-main text-white px-4 py-4 text-center rounded-full"></i>
-                            <h1 class="text-2xl text-black font-extrabold md:text-3xl">Réparations Fiables</h1>
-                            <p class="text-sm text-slate-600 leading-6">Des techniciens expérimentés à votre service. Réparations garanties avec pièces de qualité. Rapides, efficaces, testées avant livraison.</p>
+                            <i
+                                class="fa-solid fa-tags text-2xl bg-main text-white px-4 py-4 text-center rounded-full"></i>
+                            <h1 class="text-2xl text-black font-extrabold md:text-3xl">Tarifs Abordables</h1>
+                            <p class="text-sm text-slate-600 leading-6">Des prix compétitifs pour chaque service et
+                                accessoire. Excellente qualité à des tarifs accessibles pour tous. Vous en avez pour
+                                votre argent.</p>
                         </div>
                         <!-- Card End -->
 
                         <!-- Card Start -->
-                        <div class="flex flex-col  space-y-6 items-start px-4 py-10 justify-center border shadow-xl border-gray-200 rounded-lg bg-white scale-95 md:max-w-[400px] hover:scale-100 hover:bg-gray-50">
+                        <div
+                            class="flex flex-col  space-y-6 items-start px-4 py-10 justify-center border shadow-xl border-gray-200 rounded-lg bg-white scale-95 md:max-w-[400px] hover:scale-100 hover:bg-gray-50 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
 
-                            <i class="fa-solid fa-headset text-2xl bg-main text-white px-4 py-4 text-center rounded-full"></i>
-                            <h1 class="text-2xl text-black font-extrabold md:text-3xl">Service Client Réactif</h1>
-                            <p class="text-sm text-slate-600 leading-6">Nous sommes disponibles sur WhatsApp et réseaux. Réponses rapides à toutes vos questions. Votre satisfaction est notre priorité.</p>
+                            <i
+                                class="fa-solid fa-truck-fast text-2xl bg-main text-white px-4 py-4 text-center rounded-full"></i>
+                            <h1 class="text-2xl text-black font-extrabold md:text-3xl">Livraison Rapide</h1>
+                            <p class="text-sm text-slate-600 leading-6">Nous livrons dans les 58 wilayas avec
+                                efficacité. Vos commandes arrivent rapidement, bien emballées. Suivi assuré du départ
+                                jusqu’à la réception.</p>
                         </div>
                         <!-- Card End -->
                     </div>
+                    <!-- Col 1 -->
+
+                    <!-- Col 2 -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Card Start -->
+                        <div
+                            class="flex flex-col  space-y-6 items-start px-4 py-10 justify-center border shadow-xl border-gray-200 rounded-lg bg-white scale-95 md:max-w-[400px] hover:scale-100 hover:bg-gray-50 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300"">
+
+                            <i
+                                class="fa-solid fa-screwdriver-wrench text-2xl bg-main text-white px-4 py-4 text-center rounded-full"></i>
+                            <h1 class="text-2xl text-black font-extrabold md:text-3xl">Réparations Fiables</h1>
+                            <p class="text-sm text-slate-600 leading-6">Des techniciens expérimentés à votre service.
+                                Réparations garanties avec pièces de qualité. Rapides, efficaces, testées avant
+                                livraison.</p>
+                        </div>
+                        <!-- Card End -->
+
+                        <!-- Card Start -->
+                        <div
+                            class="flex flex-col  space-y-6 items-start px-4 py-10 justify-center border shadow-xl border-gray-200 rounded-lg bg-white scale-95 md:max-w-[400px] hover:scale-100 hover:bg-gray-50 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300"">
+
+                            <i
+                                class="fa-solid fa-headset text-2xl bg-main text-white px-4 py-4 text-center rounded-full"></i>
+                            <h1 class="text-2xl text-black font-extrabold md:text-3xl">Service Client Réactif</h1>
+                            <p class="text-sm text-slate-600 leading-6">Nous sommes disponibles sur WhatsApp et réseaux.
+                                Réponses rapides à toutes vos questions. Votre satisfaction est notre priorité.</p>
+                        </div>
+                        <!-- Card End -->
                     </div>
-
-
                 </div>
+                    <!-- Col 2 -->
 
-                
+
+            </div>
+
+
         </div>
 
-     </section>
+    </section>
     <!--  Why Choose Us Section End -->
 
 
     <!-- Instagram Posts Slider Start -->
-     <section class="py-10 px-4 my-10">
+    <section class="py-10 px-4 my-10">
 
         <div class="md:px-16">
             <h1 class="text-4xl text-black font-extrabold md:text-center md:text-9xl">Nos articles sur Instagram</h1>
 
-                <!-- Slider main container -->
-                <div class="swiper my-10">
+            <!-- Slider main container -->
+            <div class="swiper my-10">
 
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper pt-8">
                     <!-- Slides -->
 
-                     <!-- Card Start -->
+                    <!-- Card Start -->
                     <div class="swiper-slide">
                         <!-- Card Start -->
-                         <div class="flex flex-col space-y-4 bg-white shadow-xl px-4 py-4 rounded-lg scale-95 hover:scale-100 h-115">
+                        <div
+                            class="flex flex-col space-y-4 bg-white shadow-xl px-4 py-4 rounded-lg scale-95 hover:scale-100 h-115">
 
-                            <a href="https://www.instagram.com/p/DKE42W2MwDS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                            <a
+                                href="https://www.instagram.com/p/DKE42W2MwDS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
                                 <img src="assets/insta1.jpg" class="w-full h-[350px] rounded-lg" alt="">
                             </a>
 
-                            <h1 class="font-bold text-lg"><a href="#" class="text-main font-extrabold text-2xl">SamFix Store</a> Casque Noir, Casque Bluetooth</h1>
-                         </div>
+                            <h1 class="font-bold text-lg"><a href="#" class="text-main font-extrabold">SamFix Store</a>
+                                Casque Noir, Casque Bluetooth</h1>
+                        </div>
                         <!-- Card End -->
                     </div>
-                     <!-- Card End -->
+                    <!-- Card End -->
 
-                     <!-- Card Start -->
+                    <!-- Card Start -->
                     <div class="swiper-slide">
                         <!-- Card Start -->
-                         <div class="flex flex-col space-y-4 bg-white shadow-xl px-4 py-4 rounded-lg scale-95 hover:scale-100 h-115">
+                        <div
+                            class="flex flex-col space-y-4 bg-white shadow-xl px-4 py-4 rounded-lg scale-95 hover:scale-100 h-115">
 
-                            <a href="https://www.instagram.com/p/DKE42W2MwDS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                            <a
+                                href="https://www.instagram.com/p/DKE42W2MwDS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
                                 <img src="assets/insta2.jpg" class="w-full h-[350px] rounded-lg" alt="">
                             </a>
 
-                            <h1 class="font-bold text-lg"><a href="#" class="text-main font-extrabold text-2xl">SamFix Store</a> Casque Noir, Hoco W35</h1>
-                         </div>
+                            <h1 class="font-bold text-lg"><a href="#" class="text-main font-extrabold">SamFix Store</a>
+                                Casque Noir, Hoco W35</h1>
+                        </div>
                         <!-- Card End -->
                     </div>
-                     <!-- Card End -->
+                    <!-- Card End -->
 
-                     <!-- Card Start -->
+                    <!-- Card Start -->
                     <div class="swiper-slide">
                         <!-- Card Start -->
-                         <div class="flex flex-col space-y-4 bg-white shadow-xl px-4 py-4 rounded-lg scale-95 hover:scale-100 h-115">
+                        <div
+                            class="flex flex-col space-y-4 bg-white shadow-xl px-4 py-4 rounded-lg scale-95 hover:scale-100 h-115">
 
-                            <a href="https://www.instagram.com/p/DKE2AzAsyB4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                            <a
+                                href="https://www.instagram.com/p/DKE2AzAsyB4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
                                 <img src="assets/insta3.jpg" class="w-full h-[350px] rounded-lg" alt="">
                             </a>
 
-                            <h1 class="font-bold text-lg"><a href="#" class="text-main font-extrabold text-2xl">SamFix Store</a>  Led Wireless Charging</h1>
-                         </div>
+                            <h1 class="font-bold text-lg"><a href="#" class="text-main font-extrabold">SamFix Store</a>
+                                Led Wireless Charging</h1>
+                        </div>
                         <!-- Card End -->
                     </div>
-                     <!-- Card End -->
+                    <!-- Card End -->
 
-                     <!-- Card Start -->
+                    <!-- Card Start -->
                     <div class="swiper-slide">
                         <!-- Card Start -->
-                         <div class="flex flex-col space-y-4 bg-white shadow-xl px-4 py-4 rounded-lg scale-95 hover:scale-100 h-115">
+                        <div
+                            class="flex flex-col space-y-4 bg-white shadow-xl px-4 py-4 rounded-lg scale-95 hover:scale-100 h-115">
 
-                            <a href="https://www.instagram.com/p/DH_jkscISxF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                            <a
+                                href="https://www.instagram.com/p/DH_jkscISxF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
                                 <img src="assets/insta4.jpg" class="w-full h-[350px] rounded-lg" alt="">
                             </a>
 
-                            <h1 class="font-bold text-lg"><a href="#" class="text-main font-extrabold text-2xl">SamFix Store</a> Smartwatch HainoTeko Rw-53</h1>
-                         </div>
+                            <h1 class="font-bold text-lg"><a href="#" class="text-main font-extrabold">SamFix Store</a>
+                                Smartwatch HainoTeko Rw-53</h1>
+                        </div>
                         <!-- Card End -->
                     </div>
-                     <!-- Card End -->
+                    <!-- Card End -->
 
-                     <!-- Card Start -->
+                    <!-- Card Start -->
                     <div class="swiper-slide">
                         <!-- Card Start -->
-                         <div class="flex flex-col space-y-4 bg-white shadow-xl px-4 py-4 rounded-lg scale-95 hover:scale-100 h-115">
+                        <div
+                            class="flex flex-col space-y-4 bg-white shadow-xl px-4 py-4 rounded-lg scale-95 hover:scale-100 h-115">
 
-                            <a href="https://www.instagram.com/p/DH9octOoQWG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                            <a
+                                href="https://www.instagram.com/p/DH9octOoQWG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
                                 <img src="assets/insta5.jpg" class="w-full h-[350px] rounded-lg" alt="">
                             </a>
 
-                            <h1 class="font-bold text-lg"><a href="#" class="text-main font-extrabold text-2xl">SamFix Store</a> Infinix Smart 9</h1>
-                         </div>
+                            <h1 class="font-bold text-lg"><a href="#" class="text-main font-extrabold">SamFix Store</a>
+                                Infinix Smart 9</h1>
+                        </div>
                         <!-- Card End -->
                     </div>
-                     <!-- Card End -->
+                    <!-- Card End -->
 
-                     <!-- Card Start -->
+                    <!-- Card Start -->
                     <div class="swiper-slide">
                         <!-- Card Start -->
-                         <div class="flex flex-col space-y-4 bg-white shadow-xl px-4 py-4 rounded-lg scale-95 hover:scale-100 h-115">
+                        <div
+                            class="flex flex-col space-y-4 bg-white shadow-xl px-4 py-4 rounded-lg scale-95 hover:scale-100 h-115">
 
-                            <a href="https://www.instagram.com/p/DHzJgJYoaSN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                            <a
+                                href="https://www.instagram.com/p/DHzJgJYoaSN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
                                 <img src="assets/insta6.jpg" class="w-full h-[350px] rounded-lg" alt="">
                             </a>
 
-                            <h1 class="font-bold text-lg"><a href="#" class="text-main font-extrabold text-2xl">SamFix Store</a> Casque Hoco W35 Max</h1>
-                         </div>
+                            <h1 class="font-bold text-lg"><a href="#" class="text-main font-extrabold">SamFix Store</a>
+                                Casque Hoco W35 Max</h1>
+                        </div>
                         <!-- Card End -->
                     </div>
-                     <!-- Card End -->
+                    <!-- Card End -->
 
 
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar mt-8"></div>
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar mt-8"></div>
                 </div>
 
-                <button type="button" class="flex space-x-2 mt-4 items-center justify-center cursor-pointer w-fit text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 text-center animate-bounce scale-95 hover:scale-100">
+                <button type="button"
+                    class="flex space-x-2 mt-6 items-center justify-center cursor-pointer w-fit text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 text-center" id="image">
                     <i class="fa-brands fa-instagram text-xl"></i>
                     <a href="https://www.instagram.com/sam_fix_store" class="text-lg">Contactez-nous sur Instagram</a>
                 </button>
-        </div>
+            </div>
 
-     </section>
+    </section>
     <!-- Instagram Posts Slider End-->
 
 
     <!-- Contact Section Start -->
-     <section class="py-10 px-4 mt-10 bg-white">
+    <section class="py-10 px-4 mt-10 bg-white">
 
         <div class="flex flex-col space-y-4 items-center md:flex-row md:space-y-0 md:space-x-4 md:px-16">
-            
+
             <!-- Col 1 Start -->
             <div class="flex flex-col space-y-4 md:w-1/2">
-                <h1 class="text-4xl text-black font-extrabold self-start md:text-9xl">Get in touch with us</h1>
-                <p class="text-sm text-slate-600 leading-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea rerum quis, nulla praesentium nemo pariatur quae quas repellendus exercitationem possimus blanditiis similique. Officiis omnis natus id accusantium magnam voluptates quaerat?</p>
-                
+                <h1 class="text-4xl text-black font-extrabold self-start md:text-9xl">Contactez-nous</h1>
+                <p class="text-sm text-slate-600 leading-6">Besoin d’un renseignement ou d’une commande rapide ? Contactez-nous facilement par 
+                    <a href="https://wa.me/+2130798507160" class="text-main font-extrabold hover:text-black">WhatsApp</a>, appel ou sur nos réseaux sociaux. Nous sommes disponibles et réactifs 24/7.</p>
+
                 <div class="flex flex-col space-y-2 my-4">
 
                     <!-- Card Start -->
-                     <div class="flex flex-row items-center space-x-8 px-4 py-8 border shadow-xl border-gray-200 rounded-lg bg-white hover:scale-101 hover:bg-gray-50 md:w-[480px]">
-                        <i class="fa-solid fa-screwdriver-wrench text-2xl bg-main text-white px-4 py-4 text-center rounded-full"></i>
-                        
+                    <div
+                        class="flex flex-row items-center space-x-4 px-4 py-8 border shadow-xl border-gray-200 rounded-lg bg-white hover:scale-101 hover:bg-gray-50 md:w-[480px] delay-[300ms] duration-[600ms] taos:translate-x-[200px] [animation-iteration-count:infinite] taos:opacity-0" data-taos-offset="200">
+                        <i
+                            class="fa-solid fa-phone text-2xl bg-main text-white px-4 py-4 text-center rounded-full"></i>
+
                         <div class="flex flex-col space-y-3">
-                            <h1 class="text-xl text-main font-bold md:text-2xl">Have any question?</h1>
-                            <h1 class="text-lg text-slate-600 font-meduim md:text-lg">+213 798-507-160</h1>
-                        </div>
-                    </div>
-                    <!-- Card End -->
-                     
-                    <!-- Card Start -->
-                     <div class="flex flex-row items-center space-x-8 px-4 py-8 border shadow-xl border-gray-200 rounded-lg bg-white hover:scale-101 hover:bg-gray-50 md:w-[480px]">
-                        <i class="fa-solid fa-screwdriver-wrench text-2xl bg-main text-white px-4 py-4 text-center rounded-full"></i>
-                        
-                        <div class="flex flex-col space-y-3">
-                            <h1 class="text-xl text-main font-bold md:text-2xl">Have any question?</h1>
-                            <h1 class="text-lg text-slate-600 font-meduim md:text-lg">+213 798-507-160</h1>
-                        </div>
-                    </div>
-                    <!-- Card End -->
-                     
-                    <!-- Card Start -->
-                     <div class="flex flex-row items-center space-x-8 px-4 py-8 border shadow-xl border-gray-200 rounded-lg bg-white hover:scale-101 hover:bg-gray-50 md:w-[480px]">
-                        <i class="fa-solid fa-screwdriver-wrench text-2xl bg-main text-white px-4 py-4 text-center rounded-full"></i>
-                        
-                        <div class="flex flex-col space-y-3">
-                            <h1 class="text-xl text-main font-bold md:text-2xl">Have any question?</h1>
+                            <h1 class="text-xl text-main font-bold md:text-2xl">Des questions ?</h1>
                             <h1 class="text-lg text-slate-600 font-meduim md:text-lg">+213 798-507-160</h1>
                         </div>
                     </div>
                     <!-- Card End -->
 
-                                        
-                    <button type="button" class="flex space-x-2 items-center justify-center w-fit cursor-pointer text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 mt-6 text-center animate-bounce scale-95 hover:scale-100">
+                    <!-- Card Start -->
+                    <div
+                        class="flex flex-row items-center space-x-4 px-4 py-8 border shadow-xl border-gray-200 rounded-lg bg-white hover:scale-101 hover:bg-gray-50 md:w-[480px] delay-[300ms] duration-[600ms] taos:translate-x-[200px] [animation-iteration-count:infinite] taos:opacity-0" data-taos-offset="300">
+                        <i
+                            class="fa-solid fa-location-dot text-2xl bg-main text-white px-4 py-4 text-center rounded-full"></i>
+
+                        <div class="flex flex-col space-y-3">
+                            <h1 class="text-xl text-main font-bold md:text-2xl">Visitez à tout moment</h1>
+                            <h1 class="text-lg text-slate-600 font-meduim md:text-lg">Bab Eddaya, Sidi Bel Abbès</h1>
+                        </div>
+                    </div>
+                    <!-- Card End -->
+
+                    <!-- Card Start -->
+                    <div
+                        class="flex flex-row items-center space-x-4 px-4 py-8 border shadow-xl border-gray-200 rounded-lg bg-white hover:scale-101 hover:bg-gray-50 md:w-[480px] delay-[300ms] duration-[600ms] taos:translate-x-[200px] [animation-iteration-count:infinite] taos:opacity-0" data-taos-offset="400" >
+                        <i
+                            class="fa-solid fa-clock  text-2xl bg-main text-white px-4 py-4 text-center rounded-full"></i>
+
+                        <div class="flex flex-col space-y-3">
+                            <h1 class="text-xl text-main font-bold md:text-2xl">Horaires d’ouverture</h1>
+                            <h1 class="text-lg text-slate-600 font-meduim md:text-lg">Samedi à Jeudi</h1>
+                        </div>
+                    </div>
+                    <!-- Card End -->
+
+
+                    <button type="button"
+                        class="flex space-x-2 items-center justify-center w-fit cursor-pointer text-white bg-main focus:outline-none font-bold rounded-lg text-sm px-4 py-2 mt-6 text-center" id="image">
                         <i class="fa-brands fa-whatsapp text-xl"></i>
-                        <a href="https://wa.me/+2130796707042" class="text-lg">Connectons-nous</a>
+                        <a href="https://wa.me/+2130798507160" class="text-lg">Connectons-nous</a>
                     </button>
 
                 </div>
 
             </div>
             <!-- Col 1 End -->
-            
+
             <!-- Col 2 Start -->
             <div class="md:w-1/2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6521.923750518599!2d-0.6424052694150206!3d35.18250275998196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7f004e42da8b4b%3A0xd3a36f2dc8dadae7!2sBab%20Eddaya%2C%20Sidi%20Bel%20Abb%C3%A8s!5e0!3m2!1sen!2sdz!4v1748558732716!5m2!1sen!2sdz"
-                class="w-80 h-96 md:w-full md:h-[700px] rounded-lg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-        <!-- Col 2 End -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6521.923750518599!2d-0.6424052694150206!3d35.18250275998196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7f004e42da8b4b%3A0xd3a36f2dc8dadae7!2sBab%20Eddaya%2C%20Sidi%20Bel%20Abb%C3%A8s!5e0!3m2!1sen!2sdz!4v1748558732716!5m2!1sen!2sdz"
+                    class="w-80 h-96 md:w-full md:h-[700px] rounded-lg" style="border:0;" allowfullscreen=""
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <!-- Col 2 End -->
 
         </div>
 
-     </section>
+    </section>
     <!-- Contact Section Start -->
 
     <!-- Footer Start -->
-  <footer id="footer" class=" text-gray-400 py-12">
+    <footer id="footer" class=" text-gray-400 py-12">
         <div class="mx-auto px-6">
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -541,53 +651,66 @@
                 <!-- Column 1 -->
                 <div>
                     <!-- Logo Start -->
-                    <a href="index.html" >
+                    <a href="index.html">
                         <img src="assets/BlackLogo-r.png" class="max-w-[85px] md:max-w-[100px] " alt="SamFix Logo">
                     </a>
                     <!-- Logo Start -->
-                     <p class="text-gray-200 font-light">SamFix Store est votre expert local en vente d’accessoires high-tech et en réparation de téléphones et montres connectées à Sidi Bel Abbès. Nous livrons partout en Algérie  <span class="text-black font-bold">58 wilayas</span></p>
+                    <p class="text-gray-200 font-light">SamFix Store est votre expert local en vente d’accessoires
+                        high-tech et en réparation de téléphones et montres connectées à Sidi Bel Abbès. Nous livrons
+                        partout en Algérie <span class="text-black font-bold">58 wilayas</span></p>
                 </div>
-                
+
                 <!-- Column 2 -->
                 <div>
                     <h3 class="text-white text-lg font-bold mb-4">Quick Links</h3>
 
                     <ul class="space-y-2">
-                        <li><a href="index.html" class="text-gray-200 font-medium hover:text-black hover:font-bold">Home</a></li>
-                        <li><a href="#About" class="text-gray-200 font-medium hover:text-black hover:font-bold">About Us</a></li>
-                        <li><a href="#Services" class="text-gray-200 font-medium hover:text-black hover:font-bold">Services</a></li>
-                        <li><a href="#Posts" class="text-gray-200 font-medium hover:text-black hover:font-bold">Posts</a></li>
-                        <li><a href="#Contact" class="text-gray-200 font-medium hover:text-black hover:font-bold">Contact Us</a></li>
+                        <li><a href="index.html"
+                                class="text-gray-200 font-medium hover:text-black hover:font-bold">Home</a></li>
+                        <li><a href="#About" class="text-gray-200 font-medium hover:text-black hover:font-bold">About
+                                Us</a></li>
+                        <li><a href="#Services"
+                                class="text-gray-200 font-medium hover:text-black hover:font-bold">Services</a></li>
+                        <li><a href="#Posts"
+                                class="text-gray-200 font-medium hover:text-black hover:font-bold">Posts</a></li>
+                        <li><a href="#Contact"
+                                class="text-gray-200 font-medium hover:text-black hover:font-bold">Contact Us</a></li>
                     </ul>
 
                 </div>
-                
+
                 <!-- Column 3 -->
                 <div>
                     <h3 class="text-white text-lg font-bold mb-4">Contact Us</h3>
-                    <p class="text-gray-200 font-light mb-5">Get in Touch with us via mail phone. We are waiting for your call or message</p>
+                    <p class="text-gray-200 font-light mb-5">Contactez-nous facilement par WhatsApp, appel ou sur nos réseaux sociaux.</p>
 
-                    <button type="button" class="flex space-x-2 mt-4 items-center justify-center cursor-pointer w-fit bg-black text-white focus:outline-none font-bold rounded-lg text-sm px-4 py-2 text-center hover:bg-gray-800">
+                    <button type="button"
+                        class="flex space-x-2 mt-4 items-center justify-center cursor-pointer w-fit bg-black text-white focus:outline-none font-bold rounded-lg text-sm px-4 py-2 text-center hover:bg-gray-800">
                         <i class="fa-brands fa-whatsapp text-[16px] md:text-xl"></i>
-                        <a href="https://wa.me/+2130796707042" class="text-[16px] md:text-lg">Contactez-nous sur WhatsApp</a>
+                        <a href="https://wa.me/+2130798507160" class="text-[16px] md:text-lg">Contactez-nous sur
+                            WhatsApp</a>
                     </button>
 
                     <div class="flex space-x-4 my-4">
 
 
-                        <a href="https://www.tiktok.com/@sam.fix.store" class="w-10 h-10 bg-black rounded-full flex items-center justify-center scale-95 hover:scale-100 hover:bg-gray-800">
+                        <a href="https://www.tiktok.com/@sam.fix.store"
+                            class="w-10 h-10 bg-black rounded-full flex items-center justify-center scale-95 hover:scale-100 hover:bg-gray-800">
                             <i class="fab fa-tiktok text-white"></i>
                         </a>
 
-                        <a href="https://www.facebook.com/samfix22/" class="w-10 h-10 bg-black rounded-full flex items-center justify-center  scale-95 hover:scale-100 hover:bg-gray-800">
+                        <a href="https://www.facebook.com/samfix22/"
+                            class="w-10 h-10 bg-black rounded-full flex items-center justify-center  scale-95 hover:scale-100 hover:bg-gray-800">
                             <i class="fab fa-facebook-f text-white"></i>
                         </a>
 
-                        <a href="https://www.instagram.com/sam_fix_store/" class="w-10 h-10 bg-black rounded-full flex items-center justify-center scale-95 hover:scale-100 hover:bg-gray-800">
+                        <a href="https://www.instagram.com/sam_fix_store/"
+                            class="w-10 h-10 bg-black rounded-full flex items-center justify-center scale-95 hover:scale-100 hover:bg-gray-800">
                             <i class="fab fa-instagram text-white"></i>
                         </a>
-                        
-                        <a href="https://wa.me/+2130796707042" class="w-10 h-10 bg-black rounded-full flex items-center justify-center scale-97 hover:scale-100 hover:bg-gray-800">
+
+                        <a href="https://wa.me/+2130798507160"
+                            class="w-10 h-10 bg-black rounded-full flex items-center justify-center scale-97 hover:scale-100 hover:bg-gray-800">
                             <i class="fab fa-whatsapp text-white font-bold"></i>
                         </a>
                     </div>
@@ -598,24 +721,29 @@
             </div>
 
 
-        </div>            
-        
+        </div>
+
     </footer>
-            
+
     <!-- Copyright Section Start -->
-          <div class="flex flex-row justify-center items-center py-6 px-6 bg-black">
-            <h1 class="text-white">Copyright &copy; <a href="#" class="text-main font-extrabold">SamFix</a>. All rights reserved.</h1>
-         </div>
+    <div class="flex flex-row justify-center items-center py-6 px-6 bg-black">
+        <h1 class="text-white">Copyright &copy; <a href="#" class="text-main font-extrabold">SamFix</a>. All rights
+            reserved.</h1>
+    </div>
     <!-- Copyright Section End-->
 
     <!-- FlowBit Js Link -->
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 
+    <!-- TAOS animation link js -->
+    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
+
     <!-- Swiper Js Link -->
-     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- Js Link -->
     <script src="src/script.js"></script>
 </body>
+
 </html>

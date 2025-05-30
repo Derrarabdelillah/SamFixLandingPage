@@ -110,7 +110,6 @@
     --color-pink-700: #BE185D;
     --color-pink-800: #9D174D;
     --color-pink-900: #831843;
-    --color-slate-200: oklch(92.9% 0.013 255.508);
     --color-slate-600: oklch(44.6% 0.043 257.281);
     --color-gray-50: #F9FAFB;
     --color-gray-100: #F3F4F6;
@@ -1446,50 +1445,20 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
-  .h-9 {
-    height: calc(var(--spacing) * 9);
-  }
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
   .h-96 {
     height: calc(var(--spacing) * 96);
   }
-  .h-110 {
-    height: calc(var(--spacing) * 110);
-  }
   .h-115 {
     height: calc(var(--spacing) * 115);
-  }
-  .h-120 {
-    height: calc(var(--spacing) * 120);
-  }
-  .h-156 {
-    height: calc(var(--spacing) * 156);
-  }
-  .h-\[300px\] {
-    height: 300px;
   }
   .h-\[350px\] {
     height: 350px;
   }
-  .h-\[400px\] {
-    height: 400px;
-  }
   .h-\[calc\(100\%-1rem\)\] {
     height: calc(100% - 1rem);
-  }
-  .max-h-\[400px\] {
-    max-height: 400px;
-  }
-  .max-h-\[700px\] {
-    max-height: 700px;
-  }
-  .max-h-\[750px\] {
-    max-height: 750px;
-  }
-  .max-h-\[800px\] {
-    max-height: 800px;
   }
   .max-h-full {
     max-height: 100%;
@@ -1579,9 +1548,6 @@
     .datatable-wrapper & .datatable-empty {
       text-align: center;
     }
-  }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -1686,12 +1652,6 @@
   }
   .flex-shrink {
     flex-shrink: 1;
-  }
-  .flex-grow {
-    flex-grow: 1;
-  }
-  .border-collapse {
-    border-collapse: collapse;
   }
   .-translate-x-full {
     --tw-translate-x: -100%;
@@ -1862,13 +1822,6 @@
       --tw-space-x-reverse: 0;
       margin-inline-start: calc(calc(var(--spacing) * 4) * var(--tw-space-x-reverse));
       margin-inline-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-x-reverse)));
-    }
-  }
-  .space-x-8 {
-    :where(& > :not(:last-child)) {
-      --tw-space-x-reverse: 0;
-      margin-inline-start: calc(calc(var(--spacing) * 8) * var(--tw-space-x-reverse));
-      margin-inline-end: calc(calc(var(--spacing) * 8) * calc(1 - var(--tw-space-x-reverse)));
     }
   }
   .self-start {
@@ -2132,9 +2085,6 @@
   .bg-gray-200 {
     background-color: var(--color-gray-200);
   }
-  .bg-gray-900 {
-    background-color: var(--color-gray-900);
-  }
   .bg-gray-900\/50 {
     background-color: color-mix(in srgb, #111827 50%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -2200,18 +2150,6 @@
     }
     .dark .apexcharts-canvas .apexcharts-datalabels-group .apexcharts-text& {
       fill: white !important;
-    }
-  }
-  .apexcharts-gridline {
-    stroke: var(--color-gray-200) !important;
-    .dark & {
-      stroke: var(--color-gray-700) !important;
-    }
-  }
-  .apexcharts-xcrosshairs {
-    stroke: var(--color-gray-200) !important;
-    .dark & {
-      stroke: var(--color-gray-700) !important;
     }
   }
   .apexcharts-ycrosshairs {
@@ -2323,15 +2261,6 @@
     .dark .apexcharts-canvas &:not(.apexcharts-inactive-legend):hover {
       color: white !important;
     }
-  }
-  .pb-6 {
-    padding-bottom: calc(var(--spacing) * 6);
-  }
-  .pb-8 {
-    padding-bottom: calc(var(--spacing) * 8);
-  }
-  .pb-10 {
-    padding-bottom: calc(var(--spacing) * 10);
   }
   .datatable-empty {
     .datatable-wrapper .datatable-table & {
@@ -2505,9 +2434,6 @@
   .text-blue-600 {
     color: var(--color-blue-600);
   }
-  .text-gray-100 {
-    color: var(--color-gray-100);
-  }
   .text-gray-200 {
     color: var(--color-gray-200);
   }
@@ -2537,9 +2463,6 @@
   }
   .uppercase {
     text-transform: uppercase;
-  }
-  .underline {
-    text-decoration-line: underline;
   }
   .opacity-0 {
     opacity: 0%;
@@ -3163,6 +3086,14 @@
 * {
   font-family: "Ancizar Sans", sans-serif;
   transition: all 0.3s;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #50B848;
+  border-radius: 1px;
 }
 body {
   background-color: #f8f8f8;
@@ -3190,6 +3121,16 @@ body {
   }
   100% {
     transform: translateX(-1000px);
+  }
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
   }
 }
 @layer base {

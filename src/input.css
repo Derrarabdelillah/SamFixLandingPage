@@ -14,6 +14,16 @@
 * {
     font-family: "Ancizar Sans", sans-serif;
     transition: all 0.3s;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #50B848;
+  border-radius: 1px;
 }
 
 body {
@@ -40,6 +50,7 @@ body {
   animation-play-state: paused;
 }
 
+
 @keyframes scroll {
   0% {
     transform: translateX(0)
@@ -47,4 +58,33 @@ body {
   100% {
     transform: translateX(-1000px)
   }
+}
+
+
+
+#image {
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.top {
+    z-index: 1903487;
+    right: -200px;
+}
+
+.active {
+    right: 10px;
+}
+
+.scroller {
+  z-index: 999999;
 }

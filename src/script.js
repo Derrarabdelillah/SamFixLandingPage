@@ -71,3 +71,24 @@ const swiperLogo = new Swiper('.slider', {
     },
   }
 });
+
+// Whatsapp Button
+const whtsBtn = document.querySelector(".top");
+
+window.onscroll = function() {
+
+  if( scrollY >= 500 && scrollY <= 4200  ) {
+    whtsBtn.classList.add("active");
+  } else {
+    whtsBtn.classList.remove("active");
+  }
+}
+
+// Scroller Progres
+let element = document.querySelector(".scroller");
+let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+window.addEventListener("scroll", () => {
+  let scrollPosition = (window.scrollY / height) * 100;
+  element.style.width = `${scrollPosition}%`;
+})
