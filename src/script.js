@@ -1,7 +1,6 @@
 const swiper = new Swiper('.swiper', {
-  // Optional parameters
+
   speed: 400,
-//   spaceBetween: 100,
   loop: true,
   spaceBetween: 30,
   grabCursor: true,
@@ -10,7 +9,7 @@ const swiper = new Swiper('.swiper', {
     delay: 3000,
   },
 
-  // If we need pagination
+  // pagination
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
@@ -23,7 +22,7 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 
-  // And if we need scrollbar
+  //scrollbar
   scrollbar: {
     el: '.swiper-scrollbar',
   },
@@ -44,9 +43,7 @@ const swiper = new Swiper('.swiper', {
 });
 
 const swiperLogo = new Swiper('.slider', {
-  // Optional parameters
   speed: 500,
-//   spaceBetween: 100,
   loop: true,
   grabCursor: true,
   slidesPerView: 6,
@@ -55,11 +52,9 @@ const swiperLogo = new Swiper('.slider', {
     delay: 2000,
   },
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-    dynamicBullets: true,
+  // Scroll Bar
+  scrollbar: {
+    el: '.swiper-scrollbar',
   },
 
   breakpoints: {
