@@ -3,7 +3,7 @@ const swiper = new Swiper('.swiper', {
   speed: 400,
 //   spaceBetween: 100,
   loop: true,
-  spaceBetween: 10,
+  spaceBetween: 30,
   grabCursor: true,
 
   autoplay:{
@@ -39,6 +39,40 @@ const swiper = new Swiper('.swiper', {
 
     1024: {
         slidesPerView: 3
+    },
+  }
+});
+
+const swiperLogo = new Swiper('.slider', {
+  // Optional parameters
+  speed: 500,
+//   spaceBetween: 100,
+  loop: true,
+  grabCursor: true,
+  slidesPerView: 6,
+
+  autoplay:{
+    delay: 2000,
+  },
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true,
+  },
+
+  breakpoints: {
+    0: {
+        slidesPerView: 2,
+    },
+
+    620: {
+        slidesPerView: 4,
+    },
+
+    1024: {
+        slidesPerView: 6,
     },
   }
 });

@@ -26,6 +26,12 @@ body {
     background: linear-gradient(to bottom, #1d461b,#2e702b, #50B848, #50B848, white); 
 }
 
+#footer {
+    background: #000000;
+    background: -webkit-linear-gradient(to bottom #50B848, #1d461b); 
+    background: linear-gradient(to bottom, #1d461b,#2e702b, #50B848); 
+}
+
 .slider .slider-animation {
   width: 3600px;
   animation: scroll 10s linear infinite;
