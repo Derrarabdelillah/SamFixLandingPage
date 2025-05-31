@@ -9,19 +9,6 @@ const swiper = new Swiper('.swiper', {
     delay: 3000,
   },
 
-  // pagination
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-    dynamicBullets: true,
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
   //scrollbar
   scrollbar: {
     el: '.swiper-scrollbar',
@@ -46,7 +33,6 @@ const swiperLogo = new Swiper('.slider', {
   speed: 500,
   loop: true,
   grabCursor: true,
-  slidesPerView: 6,
 
   autoplay:{
     delay: 2000,
