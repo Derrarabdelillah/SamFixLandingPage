@@ -19,6 +19,7 @@
 
 ::-webkit-scrollbar {
   background-color: white;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -42,14 +43,6 @@ body {
     background: linear-gradient(to bottom, #1d461b,#2e702b, #50B848); 
 }
 
-.slider .slider-animation {
-  width: 3600px;
-  animation: scroll 10s linear infinite;
-}
-.slider .slider-animation:hover {
-  animation-play-state: paused;
-}
-
 
 @keyframes scroll {
   0% {
@@ -61,7 +54,7 @@ body {
 }
 
 
-
+/* Float animation */
 #image {
   animation: float 2s ease-in-out infinite;
 }
@@ -76,6 +69,7 @@ body {
   }
 }
 
+/* Whatsapp Button */
 .top {
     z-index: 1903487;
     right: -200px;
@@ -85,6 +79,8 @@ body {
     right: 10px;
 }
 
+
+/* top  Scroller */
 .scroller {
   z-index: 999999;
 }
